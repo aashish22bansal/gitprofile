@@ -26,7 +26,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@aashish22bansal/blog-js": "^2.0.6",
+    "@arifszn/blog-js": "^2.0.6",
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
