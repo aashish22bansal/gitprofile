@@ -5,9 +5,9 @@ const CONFIG = {
     username: 'aashish22bansal', // Your GitHub org/user name. (This is the only required config)
   },
   /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
+   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/aashish22bansal/aashish22bansal.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
+   * for example your repository is at https://github.com/aashish22bansal/portfolio, then set base to '/portfolio/'.
    */
   base: '/gitprofile/',
   projects: {
@@ -20,12 +20,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed. example: ['aashish22bansal/my-project1', 'aashish22bansal/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['aashish22bansal/gitprofile', 'aashish22bansal/pandora'], // List of repository names to display. example: ['aashish22bansal/my-project1', 'aashish22bansal/my-project2']
       },
     },
     external: {
@@ -52,28 +52,28 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Aashish Bansal',
     description: '',
-    imageURL: '',
+    imageURL: 'public\Aashish.jpeg',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'aashish22bansal',
+    twitter: 'aashish22bansal',
+    mastodon: 'aashish22bansal@mastodon.social',
     researchGate: '',
     facebook: '',
-    instagram: '',
+    instagram: 'theinfinitelearner',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'aashish22bansal',
+    dev: 'aashish22bansal',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://www.aashish22bansal.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'analyst.aashish@gmail.com',
   },
   resume: {
     fileUrl:
@@ -97,18 +97,18 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Bank of America Continnum India',
+      position: 'Software Engineer 1-B',
+      from: 'July 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      // companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Bank of America Continnum India',
+      position: 'Academic Intern Tech',
+      from: 'January 2023',
+      to: 'July 2023',
+      // companyLink: 'https://example.com',
     },
   ],
   certifications: [
@@ -121,42 +121,60 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Vellore Institute of Technology, Vellore',
+      degree: 'B.Tech. Information Technology',
+      from: '2019',
+      to: '2023',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+    // {
+    //   institution: 'Institution Name',
+    //   degree: 'Degree',
+    //   from: '2012',
+    //   to: '2014',
+    // },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Skin Cancer Detection using Transfer Learning and Ensemble Modelling - An Assessment',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'Springer Science and Business Media Deutschland GmbH',
+      authors: 'Aashish Bansal, Agilandeeswari L, Keerthi Yasasvi, Perumalla Sasank',
+      link: 'https://link.springer.com/chapter/10.1007/978-3-030-96302-6_50',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'This article investigates and describes a Transfer Learning and Ensemble Learning trained model within the medical field of Skin cancer detection. The study examines the use of the MobileNet, Inception, and Xception Learning on pre-trained models for the prediction of Skin Cancer based on the image scans of the infected part of the body. The need for early detection of Skin Cancer has become a crucial need in the medical industry and a very demanding application in need, this article examines the use of a Skin cancer prediction software for the public to alert through an early prediction.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
+      title: 'Deep Learning and Machine Learning-Based Lung Nodule Detection Systems – An Analysis',
+      conferenceName: 'Proceedings of the 14th International Conference on Soft Computing and Pattern Recognition (SoCPaR 2022)',
+      journalName: 'Springer',
+      authors: 'Aashish Bansal, S Dhurga Sree, Agilandeeswari L',
+      link: 'https://link.springer.com/chapter/10.1007/978-3-031-27524-1_21',
+      description:
+        'We assess the efficiency of existing state-of-the-art approaches with the datasets used, and challenges faced, and recommend a path forward for high-impact future research.',
+    },
+    {
+      title: 'Vision Transformer-Based Watermark Generation for Authentication and Tamper Detection Using Schur Decomposition and Hybrid Transforms',
+      conferenceName: '',
+      journalName: 'International Journal of Computer Information Systems and Industrial Management Applications',
+      authors: 'Agilandeeswari L et. al.',
       link: 'https://example.com',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'ISSN 2150-7988 Volume 15 (2023) pp. 107-121',
+    },
+    {
+      title: 'Blind Non-linear Unmixing using Non-negative Matrix Factorization-based Bi-objective Autoencoder',
+      conferenceName: '',
+      journalName: 'Indonesian Journal of Electrical Engineering and Computer Science',
+      authors: 'Agilandeeswari L et. al.',
+      link: 'https://ijeecs.iaescore.com/index.php/IJEECS',
+      description:
+        'Vol. 31, No. 2, August 2023, pp. 1070~1079. ISSN: 2502-4752, DOI: 10.11591/ijeecs.v31.i2.pp1070-1079. Hyperspectral image processing is one of the trending techniques used in many fields such as remote sensing, medical, agriculture, food processing, and military. The unique discrimination of hyperspectral images can be used for object identification, classification, and prediction. One of the main challenges of these tasks is the mixed pixel problem. Hyperspectral unmixing is the process of identifying the endmembers and their abundance in pixels. In linear unmixing, the mixture of the endmembers is assumed to be linear homogenous patches. Even though these models are simple and faster in performance, most of the real-world images are not linear. A modified nonlinear mixture-based sparsity regularized bi-objective autoencoder model based on nonnegative matrix factorization (NMF-BOA) is proposed in this article. The performance analysis shows that our model gives competitive results compared to the state-of-the-art models.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'aashish22bansal', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -232,7 +250,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/aashish22bansal/gitprofile"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
