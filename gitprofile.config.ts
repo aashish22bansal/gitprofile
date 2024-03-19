@@ -80,20 +80,17 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'Java',
+    'Python',
+    'Angular',
     'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
+    'TypeScript',
     'MySQL',
-    'PostgreSQL',
+    'PL/SQL',
     'Git',
-    'Docker',
-    'PHPUnit',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Bootstrap',
   ],
   experiences: [
     {
@@ -113,10 +110,10 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Microsoft Technology Associate',
+      body: 'Python',
+      year: 'February 2022',
+      link: 'https://www.credly.com/badges/0f5f8c8b-3f71-4ade-bced-547dd8e9307f?source=linked_in_profile',
     },
   ],
   educations: [
@@ -186,7 +183,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'winter',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
