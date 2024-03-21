@@ -87,6 +87,7 @@ const CONFIG = {
     'TypeScript',
     'MySQL',
     'PL/SQL',
+    'Informatica',
     'Git',
     'HTML',
     'CSS',
@@ -114,6 +115,18 @@ const CONFIG = {
       body: 'Python',
       year: 'February 2022',
       link: 'https://www.credly.com/badges/0f5f8c8b-3f71-4ade-bced-547dd8e9307f?source=linked_in_profile',
+    },
+    {
+      name: 'Java (Intermediate)',
+      body: 'HackerRank',
+      year: 'September 2020',
+      link: 'https://www.hackerrank.com/certificates/902cef9d017a',
+    },
+    {
+      name: 'Java (Beginner)',
+      body: 'HackerRank',
+      year: 'September 2020',
+      link: 'https://www.hackerrank.com/certificates/61db7e957c6a',
     },
   ],
   educations: [
