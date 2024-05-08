@@ -101,7 +101,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Aashish Bansal',
-    description: '',
+    description: 'My name is Aashish Bansal and I am a Software Engineer.',
     imageURL: 'public\Aashish.jpeg',
   },
   social: {
@@ -111,7 +111,7 @@ const CONFIG = {
     researchGate: '',
     facebook: '',
     instagram: 'theinfinitelearner',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '@aashish22bansal', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
     medium: 'aashish22bansal',
@@ -125,7 +125,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1rs8ZMKscFZMCs7mmMZzMg1uTMLsEQE6W/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
@@ -154,6 +154,13 @@ const CONFIG = {
       position: 'Academic Intern Tech',
       from: 'January 2023',
       to: 'July 2023',
+      // companyLink: 'https://example.com',
+    },
+    {
+      company: 'River Bend Data Solutions',
+      position: 'Jr. Developer',
+      from: 'June 2022',
+      to: 'August 2022',
       // companyLink: 'https://example.com',
     },
   ],
@@ -236,7 +243,7 @@ const CONFIG = {
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-0FTEKJL2DS', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
