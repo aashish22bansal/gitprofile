@@ -20,18 +20,75 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['aashish22bansal/my-project1', 'aashish22bansal/my-project2']
+          projects: [
+            'aashish22bansal/angular-quickstart-2',
+            'aashish22bansal/awesome-gcp-certifications',
+            'aashish22bansal/awesome-machine-learning-interpretability',
+            'aashish22bansal/awesome-os',
+            'aashish22bansal/awesome-pentest',
+            'aashish22bansal/awesome-pentester',
+            'aashish22bansal/awesome-web-hacking',
+            'aashish22bansal/awesome-web-security',
+            'aashish22bansal/Blog-Website',
+            'aashish22bansal/bmi',
+            'aashish22bansal/bmi-1',
+            'aashish22bansal/Cheatsheets---Machine-Learning',
+            'aashish22bansal/coding-interview-university',
+            'aashish22bansal/Coursera-HTML-CSS-and-Javascript-for-Web-Developers-Johns-Hopkins-University',
+            'aashish22bansal/COURSERA-Machine-Learning-with-Python-Capstone-Project',
+            'aashish22bansal/Coursera-Professional-Certificate---IBM-Data-Science',
+            'aashish22bansal/Coursera-Professional-Certificate---Meta-iOS-Developer',
+            'aashish22bansal/design-resources-for-developers',
+            'aashish22bansal/developer-roadmap',
+            'aashish22bansal/django-adminlte',
+            'aashish22bansal/Flutter',
+            'aashish22bansal/free-programming-books',
+            'aashish22bansal/Learn-Flask',
+            'aashish22bansal/learn_flutter',
+            'aashish22bansal/Learn-JavaScript',
+            'aashish22bansal/Learn-Kotlin',
+            'aashish22bansal/List-of-web-application-security',
+            'aashish22bansal/materio-mui-react-nextjs-admin-template-free',
+            'aashish22bansal/Microsoft-Student-Partner-Workshop-Learning-Materials-AI-NLP',
+            'aashish22bansal/Network-Programming',
+            'aashish22bansal/Penetration-Testing',
+            'aashish22bansal/PentestTools',
+            'aashish22bansal/PHP-Blog-Admin',
+            'aashish22bansal/php-laravel-docker',
+            'aashish22bansal/PortfolioFlutterMacBookPro',
+            'aashish22bansal/PortfolioMacBookPro',
+            'aashish22bansal/Portfolio-Test-Website',
+            'aashish22bansal/REST-API',
+            'aashish22bansal/Spring-Boot-Application',
+            'aashish22bansal/Test',
+            'aashish22bansal/UbuntuOSPortfolio',
+            'aashish22bansal/UNIX-Concepts-and-Applications',
+            'aashish22bansal/vovacodes'
+          ], // These projects will not be displayed. example: ['aashish22bansal/my-project1', 'aashish22bansal/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['aashish22bansal/gitprofile', 'aashish22bansal/Learn-Spring-Boot', 'aashish22bansal/Spring-Boot-Unit-Testing-with-JUnit-Mockito-and-MockMvc', 'aashish22bansal/Java-Programming'], // List of repository names to display. example: ['aashish22bansal/my-project1', 'aashish22bansal/my-project2']
+        projects: [
+          'aashish22bansal/gitprofile', 
+          'aashish22bansal/Learn-Spring-Boot', 
+          'aashish22bansal/Spring-Boot-Unit-Testing-with-JUnit-Mockito-and-MockMvc', 
+          'aashish22bansal/Java-Programming'
+        ], // List of repository names to display. example: ['aashish22bansal/my-project1', 'aashish22bansal/my-project2']
       },
     },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
+        {
+          title: 'Text Summarizer',
+          description:
+            '',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/aashish22bansal/Text-Summarizer',
+        },
         {
           title: 'SMS-Spam-Detection-using-Machine-Learning-Techniques',
           description:
