@@ -35,58 +35,58 @@ const CONFIG = {
         {
           title: 'SMS-Spam-Detection-using-Machine-Learning-Techniques',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/aashish22bansal/SMS-Spam-Detection-using-Machine-Learning-Techniques',
         },
         {
           title: 'Breast-Cancer-Detection-Using-Machine-Learning-Techniques',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/aashish22bansal/Breast-Cancer-Detection-Using-Machine-Learning-Techniques',
         },
         {
           title: 'Twitter-Sentiment-Analysis-Using-Bi-LSTM',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/aashish22bansal/Twitter-Sentiment-Analysis-Using-Bi-LSTM',
         },
         {
           title: 'Fake-News-Detection',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'This is a simple model which first vectorizes the training data using TF-IDF and then uses Passive Aggressive Classifier to train on the input data.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/aashish22bansal/Fake-News-Detection',
         },
         {
           title: 'ITE1015-Soft-Computing-Project-Skin-Cancer-Detection',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'The project is a Transfer Learning and CNN trained model which can predict whether the patient has a suffering from Cancer or not by checking the images of the infected areas on the body. The model has been trained on a variety of images through which it predicts the required. In this project, the image file of the patient is upload into a software, which is GUI-based interface, developed with the help of Tkinter, and it consists of the model saved as a file and the software uses that to analyze the image and give the prediction which can help doctors to start with the medication way faster instead of waiting for the laboratory reports for the confirmation.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/aashish22bansal/ITE1015-Soft-Computing-Project-Skin-Cancer-Detection',
         },
         {
           title: 'ITE2013-Big-Data-Analytics-Credit-Card-Fraud-Detection',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/aashish22bansal/ITE2013-Big-Data-Analytics-Credit-Card-Fraud-Detection',
         },
         {
           title: 'ITE1008-Open-Source-Programming-E-Commerce-Website-Project ',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'This website is built using PHP and is integrated with a database using MySQL. The website was tested using the XAMPP Server.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/aashish22bansal/ITE1008-Open-Source-Programming-E-Commerce-Website-Project',
         },
         // {
         //   title: 'Project Name',
@@ -111,7 +111,7 @@ const CONFIG = {
     researchGate: '',
     facebook: '',
     instagram: 'theinfinitelearner',
-    youtube: '@aashish22bansal', // example: 'pewdiepie'
+    youtube: 'aashish22bansal', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
     medium: 'aashish22bansal',
